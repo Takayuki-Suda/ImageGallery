@@ -1,142 +1,3276 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-YQLFCC9S96"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-YQLFCC9S96");
+    </script>
+
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>サンプルページ</title>
-    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width" />
+
+    <meta
+      property="og:title"
+      content="現代日本画の画廊　閑々居（カンカンキョ）"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:description"
+      content="銀座の南端、コンテンポラリー日本画画廊　アートと茶湯　現代日本画の画廊　アートギャラリー閑々居（カンカンキョ）"
+    />
+    <meta property="og:url" content="https://kankankyo.com/" />
+    <meta property="og:image" content="https://kankankyo.com/ogp.jpg" />
+    <meta
+      property="og:site_name"
+      content="現代日本画の画廊　閑々居（カンカンキョ）"
+    />
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="fb:app_id" content="833557400385261" />
+
+    <meta
+      name="keywords"
+      content="閑々居,かんかんきょ,カンカンキョ,kankankyo,日本画,銀座,現代日本画,アート,アートギャラリー,画廊,銀座,新橋,コンテンポラリー,銀座の南端"
+    />
+
+    <title>Exhibition – Art Gallery　閑々居（Kankankyo）</title>
+    <meta name="robots" content="max-image-preview:large" />
+
+    <style>
+      img:is([sizes="auto" i], [sizes^="auto," i]) {
+        contain-intrinsic-size: 3000px 1500px;
+      }
+    </style>
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Art Gallery　閑々居（Kankankyo） &raquo; Exhibition フィード"
+      href="feed/index.html"
+    />
+    <link
+      rel="stylesheet"
+      id="wp-block-library-css"
+      href="https://kankankyo.com/wp/wp-includes/css/dist/block-library/style.min.css?ver=6.7.2"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="wc-block-style-css"
+      href="https://kankankyo.com/wp/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css?ver=2.5.16"
+      type="text/css"
+      media="all"
+    />
+    <style id="classic-theme-styles-inline-css" type="text/css">
+      /*! This file is auto-generated */
+      .wp-block-button__link {
+        color: #fff;
+        background-color: #32373c;
+        border-radius: 9999px;
+        box-shadow: none;
+        text-decoration: none;
+        padding: calc(0.667em + 2px) calc(1.333em + 2px);
+        font-size: 1.125em;
+      }
+      .wp-block-file__button {
+        background: #32373c;
+        color: #fff;
+        text-decoration: none;
+      }
+    </style>
+    <style id="global-styles-inline-css" type="text/css">
+      :root {
+        --wp--preset--aspect-ratio--square: 1;
+        --wp--preset--aspect-ratio--4-3: 4/3;
+        --wp--preset--aspect-ratio--3-4: 3/4;
+        --wp--preset--aspect-ratio--3-2: 3/2;
+        --wp--preset--aspect-ratio--2-3: 2/3;
+        --wp--preset--aspect-ratio--16-9: 16/9;
+        --wp--preset--aspect-ratio--9-16: 9/16;
+        --wp--preset--color--black: #000000;
+        --wp--preset--color--cyan-bluish-gray: #abb8c3;
+        --wp--preset--color--white: #ffffff;
+        --wp--preset--color--pale-pink: #f78da7;
+        --wp--preset--color--vivid-red: #cf2e2e;
+        --wp--preset--color--luminous-vivid-orange: #ff6900;
+        --wp--preset--color--luminous-vivid-amber: #fcb900;
+        --wp--preset--color--light-green-cyan: #7bdcb5;
+        --wp--preset--color--vivid-green-cyan: #00d084;
+        --wp--preset--color--pale-cyan-blue: #8ed1fc;
+        --wp--preset--color--vivid-cyan-blue: #0693e3;
+        --wp--preset--color--vivid-purple: #9b51e0;
+        --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(
+          135deg,
+          rgba(6, 147, 227, 1) 0%,
+          rgb(155, 81, 224) 100%
+        );
+        --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(
+          135deg,
+          rgb(122, 220, 180) 0%,
+          rgb(0, 208, 130) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(
+          135deg,
+          rgba(252, 185, 0, 1) 0%,
+          rgba(255, 105, 0, 1) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(
+          135deg,
+          rgba(255, 105, 0, 1) 0%,
+          rgb(207, 46, 46) 100%
+        );
+        --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(
+          135deg,
+          rgb(238, 238, 238) 0%,
+          rgb(169, 184, 195) 100%
+        );
+        --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(
+          135deg,
+          rgb(74, 234, 220) 0%,
+          rgb(151, 120, 209) 20%,
+          rgb(207, 42, 186) 40%,
+          rgb(238, 44, 130) 60%,
+          rgb(251, 105, 98) 80%,
+          rgb(254, 248, 76) 100%
+        );
+        --wp--preset--gradient--blush-light-purple: linear-gradient(
+          135deg,
+          rgb(255, 206, 236) 0%,
+          rgb(152, 150, 240) 100%
+        );
+        --wp--preset--gradient--blush-bordeaux: linear-gradient(
+          135deg,
+          rgb(254, 205, 165) 0%,
+          rgb(254, 45, 45) 50%,
+          rgb(107, 0, 62) 100%
+        );
+        --wp--preset--gradient--luminous-dusk: linear-gradient(
+          135deg,
+          rgb(255, 203, 112) 0%,
+          rgb(199, 81, 192) 50%,
+          rgb(65, 88, 208) 100%
+        );
+        --wp--preset--gradient--pale-ocean: linear-gradient(
+          135deg,
+          rgb(255, 245, 203) 0%,
+          rgb(182, 227, 212) 50%,
+          rgb(51, 167, 181) 100%
+        );
+        --wp--preset--gradient--electric-grass: linear-gradient(
+          135deg,
+          rgb(202, 248, 128) 0%,
+          rgb(113, 206, 126) 100%
+        );
+        --wp--preset--gradient--midnight: linear-gradient(
+          135deg,
+          rgb(2, 3, 129) 0%,
+          rgb(40, 116, 252) 100%
+        );
+        --wp--preset--font-size--small: 13px;
+        --wp--preset--font-size--medium: 20px;
+        --wp--preset--font-size--large: 36px;
+        --wp--preset--font-size--x-large: 42px;
+        --wp--preset--spacing--20: 0.44rem;
+        --wp--preset--spacing--30: 0.67rem;
+        --wp--preset--spacing--40: 1rem;
+        --wp--preset--spacing--50: 1.5rem;
+        --wp--preset--spacing--60: 2.25rem;
+        --wp--preset--spacing--70: 3.38rem;
+        --wp--preset--spacing--80: 5.06rem;
+        --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+        --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1),
+          6px 6px rgba(0, 0, 0, 1);
+        --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+      }
+      :where(.is-layout-flex) {
+        gap: 0.5em;
+      }
+      :where(.is-layout-grid) {
+        gap: 0.5em;
+      }
+      body .is-layout-flex {
+        display: flex;
+      }
+      .is-layout-flex {
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      .is-layout-flex > :is(*, div) {
+        margin: 0;
+      }
+      body .is-layout-grid {
+        display: grid;
+      }
+      .is-layout-grid > :is(*, div) {
+        margin: 0;
+      }
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+      :where(.wp-block-columns.is-layout-grid) {
+        gap: 2em;
+      }
+      :where(.wp-block-post-template.is-layout-flex) {
+        gap: 1.25em;
+      }
+      :where(.wp-block-post-template.is-layout-grid) {
+        gap: 1.25em;
+      }
+      .has-black-color {
+        color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-color {
+        color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-color {
+        color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-color {
+        color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-color {
+        color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-color {
+        color: var(--wp--preset--color--luminous-vivid-orange) !important;
+      }
+      .has-luminous-vivid-amber-color {
+        color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+      .has-light-green-cyan-color {
+        color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-color {
+        color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-color {
+        color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-color {
+        color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-color {
+        color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-black-background-color {
+        background-color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-background-color {
+        background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-background-color {
+        background-color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-background-color {
+        background-color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-background-color {
+        background-color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-amber-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-amber
+        ) !important;
+      }
+      .has-light-green-cyan-background-color {
+        background-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-background-color {
+        background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-background-color {
+        background-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-black-border-color {
+        border-color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-border-color {
+        border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-border-color {
+        border-color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-border-color {
+        border-color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-border-color {
+        border-color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-border-color {
+        border-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-amber-border-color {
+        border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+      .has-light-green-cyan-border-color {
+        border-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-border-color {
+        border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-border-color {
+        border-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+        background: var(
+          --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple
+        ) !important;
+      }
+      .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+        background: var(
+          --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan
+        ) !important;
+      }
+      .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-orange-to-vivid-red
+        ) !important;
+      }
+      .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+        background: var(
+          --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray
+        ) !important;
+      }
+      .has-cool-to-warm-spectrum-gradient-background {
+        background: var(
+          --wp--preset--gradient--cool-to-warm-spectrum
+        ) !important;
+      }
+      .has-blush-light-purple-gradient-background {
+        background: var(--wp--preset--gradient--blush-light-purple) !important;
+      }
+      .has-blush-bordeaux-gradient-background {
+        background: var(--wp--preset--gradient--blush-bordeaux) !important;
+      }
+      .has-luminous-dusk-gradient-background {
+        background: var(--wp--preset--gradient--luminous-dusk) !important;
+      }
+      .has-pale-ocean-gradient-background {
+        background: var(--wp--preset--gradient--pale-ocean) !important;
+      }
+      .has-electric-grass-gradient-background {
+        background: var(--wp--preset--gradient--electric-grass) !important;
+      }
+      .has-midnight-gradient-background {
+        background: var(--wp--preset--gradient--midnight) !important;
+      }
+      .has-small-font-size {
+        font-size: var(--wp--preset--font-size--small) !important;
+      }
+      .has-medium-font-size {
+        font-size: var(--wp--preset--font-size--medium) !important;
+      }
+      .has-large-font-size {
+        font-size: var(--wp--preset--font-size--large) !important;
+      }
+      .has-x-large-font-size {
+        font-size: var(--wp--preset--font-size--x-large) !important;
+      }
+      :where(.wp-block-post-template.is-layout-flex) {
+        gap: 1.25em;
+      }
+      :where(.wp-block-post-template.is-layout-grid) {
+        gap: 1.25em;
+      }
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+      :where(.wp-block-columns.is-layout-grid) {
+        gap: 2em;
+      }
+      :root :where(.wp-block-pullquote) {
+        font-size: 1.5em;
+        line-height: 1.6;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="foobox-free-min-css"
+      href="https://kankankyo.com/wp/wp-content/plugins/foobox-image-lightbox/free/css/foobox.free.min.css?ver=2.7.28"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="woocommerce-layout-css"
+      href="https://kankankyo.com/wp/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=4.2.5"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="woocommerce-smallscreen-css"
+      href="https://kankankyo.com/wp/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=4.2.5"
+      type="text/css"
+      media="only screen and (max-width: 768px)"
+    />
+    <link
+      rel="stylesheet"
+      id="woocommerce-general-css"
+      href="https://kankankyo.com/wp/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=4.2.5"
+      type="text/css"
+      media="all"
+    />
+    <style id="woocommerce-inline-inline-css" type="text/css">
+      .woocommerce form .form-row .required {
+        visibility: visible;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="famous-style-css"
+      href="https://kankankyo.com/wp/wp-content/themes/famous_tcd064/style.css?ver=1.2"
+      type="text/css"
+      media="all"
+    />
+    <script
+      type="text/javascript"
+      src="https://kankankyo.com/wp/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+      id="jquery-core-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://kankankyo.com/wp/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+      id="jquery-migrate-js"
+    ></script>
+    <script type="text/javascript" id="foobox-free-min-js-before">
+      /* <![CDATA[ */
+      /* Run FooBox FREE (v2.7.28) */
+      var FOOBOX = (window.FOOBOX = {
+        ready: true,
+        disableOthers: false,
+        o: {
+          wordpress: { enabled: true },
+          countMessage: "image %index of %total",
+          captions: {
+            dataTitle: ["captionTitle", "title"],
+            dataDesc: ["captionDesc", "description"],
+          },
+          rel: "",
+          excludes:
+            '.fbx-link,.nofoobox,.nolightbox,a[href*="pinterest.com/pin/create/button/"]',
+          affiliate: { enabled: false },
+        },
+        selectors: [
+          ".foogallery-container.foogallery-lightbox-foobox",
+          ".foogallery-container.foogallery-lightbox-foobox-free",
+          ".gallery",
+          ".wp-block-gallery",
+          ".wp-caption",
+          ".wp-block-image",
+          "a:has(img[class*=wp-image-])",
+          ".post a:has(img[class*=wp-image-])",
+          ".foobox",
+        ],
+        pre: function ($) {
+          // Custom JavaScript (Pre)
+        },
+        post: function ($) {
+          // Custom JavaScript (Post)
+          // Custom Captions Code
+        },
+        custom: function ($) {
+          // Custom Extra JS
+        },
+      });
+      /* ]]> */
+    </script>
+    <script
+      type="text/javascript"
+      src="https://kankankyo.com/wp/wp-content/plugins/foobox-image-lightbox/free/js/foobox.free.min.js?ver=2.7.28"
+      id="foobox-free-min-js"
+    ></script>
+    <link rel="https://api.w.org/" href="https://kankankyo.com/wp-json/" />
+    <link
+      rel="EditURI"
+      type="application/rsd+xml"
+      title="RSD"
+      href="https://kankankyo.com/wp/xmlrpc.php?rsd"
+    />
+    <meta name="generator" content="WordPress 6.7.2" />
+    <meta name="generator" content="WooCommerce 4.2.5" />
+    <style>
+      .p-button:hover,
+      .p-category-item:hover,
+      .p-entry-works__pager .p-pager__item a:hover,
+      .c-comment__form-submit:hover,
+      c-comment__password-protected,
+      .c-pw__btn--register,
+      .c-pw__btn {
+        background-color: #000000;
+      }
+      .c-comment__tab-item.is-active a,
+      .c-comment__tab-item a:hover,
+      .c-comment__tab-item.is-active p {
+        background-color: #000000;
+        border-color: #000000;
+      }
+      .c-comment__tab-item.is-active a:after,
+      .c-comment__tab-item.is-active p:after {
+        border-top-color: #000000;
+      }
+      .p-breadcrumb__item a:hover,
+      .p-social-nav a:hover,
+      .p-gallery-modal__button:hover,
+      .p-modal-cta__close:hover,
+      .p-index-archive__item-category:hover,
+      .p-widget-categories .toggle-children:hover,
+      .p-widget .searchform #searchsubmit:hover,
+      .p-widget-search .p-widget-search__submit:hover,
+      .slick-arrow:hover {
+        color: #9ab28d;
+      }
+      .p-button,
+      .p-pagetop a,
+      .p-category-item,
+      .p-page-links > span,
+      .p-pager__item .current,
+      .p-page-links a:hover,
+      .p-pager__item a:hover,
+      .p-works-gallery__filter-item.is-active span,
+      .slick-dots li.slick-active button,
+      .slick-dots li:hover button {
+        background-color: #9ab28d;
+      }
+      .p-headline,
+      .p-widget__title {
+        border-color: #9ab28d;
+      }
+      a:hover,
+      .p-entry__body a:hover,
+      .p-author__box a:hover,
+      a:hover .p-article__title,
+      .p-entry-nav a:hover,
+      .p-works-gallery__filter-item:hover span,
+      .p-entry__body .pb_simple_table a:hover {
+        color: #999999;
+      }
+      .p-pagetop a:hover {
+        background-color: #999999;
+      }
+      .p-entry__body a {
+        color: #457c17;
+      }
+      body,
+      input,
+      textarea {
+        font-family: "Times New Roman", "游明朝", "Yu Mincho", "游明朝体",
+          "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro",
+          "HiraMinProN-W3", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+      }
+      .p-logo,
+      .p-page-header__title,
+      .p-entry-works__title,
+      .p-modal-cta__catch,
+      .p-header-content__catch,
+      .p-header-content__desc,
+      .p-cb__item-headline,
+      .p-index-about__image-label {
+        font-family: "Times New Roman", "游明朝", "Yu Mincho", "游明朝体",
+          "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro",
+          "HiraMinProN-W3", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+        font-weight: 500;
+      }
+      .c-load--type1 {
+        border: 3px solid rgba(153, 153, 153, 0.2);
+        border-top-color: #000000;
+      }
+      .p-hover-effect--type1:hover img {
+        -webkit-transform: scale(1.1) rotate(2deg);
+        -moz-transform: scale(1.1) rotate(2deg);
+        -ms-transform: scale(1.1) rotate(2deg);
+        transform: scale(1.1) rotate(2deg);
+      }
+      .p-hover-effect--type2 img {
+        margin-left: -8px;
+      }
+      .p-hover-effect--type2:hover img {
+        margin-left: 8px;
+      }
+      .p-hover-effect--type2:hover .p-hover-effect__image {
+        background: #000000;
+      }
+      .p-hover-effect--type2:hover img {
+        opacity: 0.5;
+      }
+      .p-hover-effect--type3:hover .p-hover-effect__image {
+        background: #000000;
+      }
+      .p-hover-effect--type3:hover img {
+        opacity: 0.5;
+      }
+      .p-entry__title {
+        font-size: 30px;
+      }
+      .p-entry__title,
+      .p-article-post__title {
+        color: #000000;
+      }
+      .p-entry__body {
+        font-size: 16px;
+      }
+      .p-entry__body,
+      .p-entry__body .pb_simple_table a {
+        color: #000000;
+      }
+      .p-entry-information__title {
+        font-size: 30px;
+      }
+      .p-entry-information__title,
+      .p-article-information__title {
+        color: #000000;
+      }
+      .p-entry-information__body,
+      .p-entry-information__body .pb_simple_table a {
+        color: #000000;
+        font-size: 16px;
+      }
+      .p-entry-works__title {
+        color: #000000;
+        font-size: 40px;
+      }
+      .p-entry-works__body {
+        color: #000000;
+        font-size: 14px;
+      }
+      .p-gallery-modal__overlay {
+        background: rgba(0, 0, 0, 0.5);
+      }
+      .p-article-voice__title {
+        color: #000000;
+        font-size: 16px;
+      }
+      .p-entry-voice__body {
+        color: #000000;
+        font-size: 14px;
+      }
+      .l-header__bar {
+        background: rgba(255, 255, 255, 1);
+      }
+      body.l-header__fix .is-header-fixed .l-header__bar {
+        background: rgba(255, 255, 255, 0.8);
+      }
+      .p-header__logo--text {
+        font-size: 30px;
+      }
+      .p-footer__logo--text {
+        font-size: 30px;
+      }
+      .l-header a,
+      .p-global-nav a {
+        color: #000000;
+      }
+      .p-global-nav .sub-menu {
+        background-color: #303030;
+      }
+      .p-global-nav .sub-menu a {
+        color: #ffffff;
+      }
+      .p-global-nav .sub-menu a:hover,
+      .p-global-nav .sub-menu .current-menu-item > a {
+        background-color: #9ab28d;
+        color: #ffffff;
+      }
+      .p-footer-info,
+      .p-footer__logo--text a {
+        color: #ffffff;
+      }
+      .p-footer-info.has-bg-image::after {
+        background-color: rgba(10, 10, 10, 0.5);
+      }
+      .p-footer-info__desc {
+        font-size: 16px;
+      }
+      .p-footer-info .p-social-nav a {
+        color: #000000;
+      }
+      .p-footer-info .p-social-nav a:hover {
+        color: #ee3c00;
+      }
+      .p-footer-nav__container {
+        background-color: #ffffff;
+      }
+      .p-footer-nav,
+      .p-footer-nav li a {
+        color: #000000;
+      }
+      .p-footer-nav li a:hover {
+        color: #666666;
+      }
+      .p-copyright {
+        background-color: #000000;
+        color: #ffffff;
+      }
+      @media (min-width: 1200px) {
+        .p-global-nav a:hover,
+        .p-global-nav > li:hover > a,
+        .p-global-nav > li.current-menu-item > a,
+        .p-global-nav > li.is-active > a {
+          color: #9ab28d;
+        }
+      }
+      @media only screen and (max-width: 1199px) {
+        .l-header__bar {
+          background-color: rgba(255, 255, 255, 1);
+        }
+        .p-header__logo--text {
+          font-size: 20px;
+        }
+        .p-global-nav {
+          background-color: rgba(48, 48, 48, 1);
+        }
+        .p-global-nav a {
+          color: #ffffff;
+        }
+        .p-global-nav a:hover,
+        .p-global-nav .current-menu-item > a {
+          background-color: rgba(154, 178, 141, 1);
+          color: #ffffff;
+        }
+      }
+      @media only screen and (max-width: 991px) {
+        .p-footer__logo--text {
+          font-size: 24px;
+        }
+        .p-footer-info__desc {
+          font-size: 14px;
+        }
+        .p-entry__title {
+          font-size: 18px;
+        }
+        .p-entry__body {
+          font-size: 14px;
+        }
+        .p-entry-information__title {
+          font-size: 18px;
+        }
+        .p-entry-information__body {
+          font-size: 14px;
+        }
+        .p-entry-works__title {
+          font-size: 34px;
+        }
+        .p-entry-works__body {
+          font-size: 14px;
+        }
+        .p-article-voice__title {
+          font-size: 16px;
+        }
+        .p-entry-voice__body {
+          font-size: 14px;
+        }
+      }
+      @media screen and (min-width: 650px) {
+        .br-pc {
+          display: block;
+        }
+        .br-sp {
+          display: none;
+        }
+      }
+      @media screen and (max-width: 650px) {
+        .br-pc {
+          display: none;
+        }
+        .br-sp {
+          display: block;
+        }
+      }
+
+      /* パソコンで見たときは"pc"のclassがついた画像が表示される */
+      .pc {
+        display: block !important;
+      }
+      .sp {
+        display: none !important;
+      }
+      /* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
+      @media only screen and (max-width: 750px) {
+        .pc {
+          display: none !important;
+        }
+        .sp {
+          display: block !important;
+        }
+      }
+    </style>
+    <noscript
+      ><style>
+        .woocommerce-product-gallery {
+          opacity: 1 !important;
+        }
+      </style></noscript
+    >
+
+    <!-- BEGIN: WP Social Bookmarking Light HEAD -->
+    <script>
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.7";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
+    <style type="text/css">
+      .wp_social_bookmarking_light {
+        border: 0 !important;
+        padding: 10px 0 20px 0 !important;
+        margin: 0 !important;
+      }
+      .wp_social_bookmarking_light div {
+        float: left !important;
+        border: 0 !important;
+        padding: 0 !important;
+        margin: 0 5px 0px 0 !important;
+        min-height: 30px !important;
+        line-height: 18px !important;
+        text-indent: 0 !important;
+      }
+      .wp_social_bookmarking_light img {
+        border: 0 !important;
+        padding: 0;
+        margin: 0;
+        vertical-align: top !important;
+      }
+      .wp_social_bookmarking_light_clear {
+        clear: both !important;
+      }
+      #fb-root {
+        display: none;
+      }
+      .wsbl_facebook_like iframe {
+        max-width: none !important;
+      }
+      .wsbl_pinterest a {
+        border: 0px !important;
+      }
+    </style>
+    <!-- END: WP Social Bookmarking Light HEAD -->
+    <link
+      rel="icon"
+      href="https://kankankyo.com/wp/wp-content/uploads/2020/07/cropped-favicon2-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      href="https://kankankyo.com/wp/wp-content/uploads/2020/07/cropped-favicon2-192x192.png"
+      sizes="192x192"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="https://kankankyo.com/wp/wp-content/uploads/2020/07/cropped-favicon2-180x180.png"
+    />
+    <meta
+      name="msapplication-TileImage"
+      content="https://kankankyo.com/wp/wp-content/uploads/2020/07/cropped-favicon2-270x270.png"
+    />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-6371742-79"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-6371742-79");
+    </script>
   </head>
-  <body>
-    <!-- カテゴリーセレクター -->
-    <div class="category-selector">
-      <button class="category" data-category="all">ALL</button>
-      <button class="category" data-category="cat">Cat</button>
-      <button class="category" data-category="dog">Dog</button>
-      <button class="category" data-category="fish">Fish</button>
-      <button class="category" data-category="insect">Insect</button>
-    </div>
+  <body
+    class="archive post-type-archive post-type-archive-works wp-custom-logo theme-famous_tcd064 woocommerce-no-js l-header--type1 l-header--type1--mobile"
+  >
+    <header id="js-header" class="l-header">
+      <div class="l-header__bar p-header__bar">
+        <div class="p-header__bar__inner l-inner">
+          <div class="p-logo p-header__logo p-header__logo--text">
+            <a href="https://kankankyo.com/"
+              >Art Gallery　閑々居（Kankankyo）</a
+            >
+          </div>
+          <div class="p-logo p-header__logo--mobile p-header__logo--text">
+            <a href="https://kankankyo.com/"
+              >Art Gallery　閑々居（Kankankyo）</a
+            >
+          </div>
+          <a
+            href="index.html#"
+            id="js-menu-button"
+            class="p-menu-button c-menu-button"
+          ></a>
+          <nav class="p-global-nav__container">
+            <ul id="js-global-nav" class="p-global-nav">
+              <li
+                id="menu-item-648"
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-648"
+              >
+                <a href="https://kankankyo.com/">HOME<span></span></a>
+              </li>
+              <li
+                id="menu-item-651"
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-651"
+              >
+                <a href="https://kankankyo.com/access/"
+                  >閑多居について<span></span
+                ></a>
+              </li>
+              <li
+                id="menu-item-672"
+                class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-has-children menu-item-672"
+              >
+                <a href="index.html" aria-current="page"
+                  >企画展示<span></span
+                ></a>
+                <ul class="sub-menu">
+                  <li
+                    id="menu-item-1423"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1423"
+                  >
+                    <a
+                      href="https://kankankyo.com/information/10%e6%9c%885%e6%97%a5%ef%bc%88%e6%9c%a8%ef%bc%89-15%e6%97%a5%ef%bc%88%e5%9c%9f%ef%bc%89%e5%9c%92%e5%ae%b6%e8%aa%a0%e4%ba%8c%e5%80%8b%e5%b1%95/"
+                      >2022.10　園家誠二個展<span></span
+                    ></a>
+                  </li>
+                  <li
+                    id="menu-item-1331"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1331"
+                  >
+                    <a
+                      href="https://kankankyo.com/information/6%e6%9c%889%e6%97%a5%ef%bc%88%e6%9c%a8%ef%bc%89%e3%83%bc6%e6%9c%8818%e6%97%a5%ef%bc%88%e5%9c%9f%ef%bc%89%e3%80%80%e8%97%a4%e4%ba%95%e5%81%a5%e5%8f%b8%e5%80%8b%e5%b1%95%e3%80%80%ef%bc%9cwhat-a-wonderfu/"
+                      >2022.6　藤井健司個展<span></span
+                    ></a>
+                  </li>
+                  <li
+                    id="menu-item-1203"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1203"
+                  >
+                    <a
+                      href="https://kankankyo.com/information/4%e6%9c%8828%e6%97%a5%ef%bc%88%e6%9c%88%ef%bc%89%e3%80%9c%e3%80%8c%e6%96%b0%e5%80%89%e7%ab%a0%e5%ad%90%e5%b1%95%e3%80%8d%e9%96%8b%e5%82%ac%e3%81%84%e3%81%9f%e3%81%97%e3%81%be%e3%81%99%e3%80%82/"
+                      >2022.4　新倉章子展<span></span
+                    ></a>
+                  </li>
+                  <li
+                    id="menu-item-1189"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1189"
+                  >
+                    <a
+                      href="https://kankankyo.com/information/12%e6%9c%8813%e6%97%a5%ef%bc%88%e6%9c%88%ef%bc%89%e3%80%9c12%e6%9c%8823%e6%97%a5%ef%bc%88%e6%9c%a8%ef%bc%89%e3%80%8c%e8%8b%a7%e5%9d%82%e6%81%92%e6%b2%bb-%e9%99%b6%e8%97%9d%e5%b1%95%e3%80%8d%e9%96%8b/"
+                      >2021.12　苧坂恒治 陶藝展<span></span
+                    ></a>
+                  </li>
+                  <li
+                    id="menu-item-1165"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1165"
+                  >
+                    <a
+                      href="https://kankankyo.com/information/11%e6%9c%8811%e6%97%a5%ef%bc%88%e6%9c%a8%ef%bc%89%e3%80%9c11%e6%9c%8820%e6%97%a5%ef%bc%88%e5%9c%9f%ef%bc%89%e3%80%8c%e6%a8%8b%e5%8f%a3%e9%99%bd%e4%bb%8b%e3%81%ae%e8%8c%b6%e3%81%ae%e6%b9%af%e9%87%9c/"
+                      >2021.11　樋口陽介の茶の湯釜<span></span
+                    ></a>
+                  </li>
+                  <li
+                    id="menu-item-1141"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1141"
+                  >
+                    <a
+                      href="https://kankankyo.com/information/10%e6%9c%8828%e6%97%a5%ef%bc%88%e6%9c%a8%ef%bc%89%e3%80%9c11%e6%9c%886%e6%97%a5%ef%bc%88%e5%9c%9f%ef%bc%89%e3%80%8cexhibition%e3%80%80abe%e3%80%8d%e9%98%bf%e9%83%a8%e5%85%89%e6%88%90%e7%9f%b3%e5%bd%ab/"
+                      >2021.10「EXHIBITION　ABE」阿部光成石彫展<span></span
+                    ></a>
+                  </li>
+                  <li
+                    id="menu-item-1112"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1112"
+                  >
+                    <a
+                      href="https://kankankyo.com/information/7%e6%9c%888%e6%97%a5%ef%bc%88%e6%9c%a8%ef%bc%89-17%e6%97%a5%ef%bc%88%e5%9c%9f%ef%bc%89%e3%80%802021%e3%80%80%e9%95%b7%e5%b0%be%e5%92%8c%e5%85%b8%e3%80%80%e5%80%8b%e5%b1%95%e3%82%92%e9%96%8b%e5%82%ac/"
+                      >2021.7　長尾和典 個展<span></span
+                    ></a>
+                  </li>
+                  <li
+                    id="menu-item-1073"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1073"
+                  >
+                    <a
+                      href="https://kankankyo.com/information/2%e6%9c%8822%e6%97%a5%e3%82%88%e3%82%8a%e3%80%8c2021%e3%80%80%e8%8f%8a%e5%9c%b0%e6%ad%a6%e5%bd%a6%e5%b1%95%e3%80%8d%e3%82%92%e9%96%8b%e5%82%ac%e3%81%84%e3%81%9f%e3%81%97%e3%81%be%e3%81%99%e3%80%82/"
+                      >2021.2　菊地武彦展<span></span
+                    ></a>
+                  </li>
+                  <li
+                    id="menu-item-1034"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1034"
+                  >
+                    <a
+                      href="https://kankankyo.com/information/%ef%bc%91%ef%bc%92%e6%9c%88%ef%bc%91%ef%bc%90%e6%97%a5%e3%82%88%e3%82%8a%e3%80%8c%e8%8b%a7%e5%9d%82%e6%81%92%e6%b2%bb%e4%bd%9c%e9%99%b6%e5%b1%95%e3%80%8d%e3%82%92%e9%96%8b%e5%82%ac%e3%81%84%e3%81%9f/"
+                      >2020.12　苧坂恒治作陶展「ceramic WORKS」<span></span
+                    ></a>
+                  </li>
+                  <li
+                    id="menu-item-977"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-977"
+                  >
+                    <a
+                      href="https://kankankyo.com/information/10%e6%9c%8822%e6%97%a5%e3%82%88%e3%82%8a31%e6%97%a5%e3%81%be%e3%81%a7%e3%80%81%e7%a5%9e%e5%b1%b1%e8%97%8d%e8%bc%94%e3%80%8cthe-knife%e3%80%8d%e3%82%92%e9%96%8b%e5%82%ac%e3%81%84%e3%81%9f%e3%81%97/"
+                      >2020.10　神山藍輔展「THE KNIFE Vol.2」<span></span
+                    ></a>
+                  </li>
+                  <li
+                    id="menu-item-873"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-873"
+                  >
+                    <a
+                      href="https://kankankyo.com/information/2020-%e4%b9%85%e9%87%8e%e9%9a%86%e5%8f%b2%e5%80%8b%e5%b1%95-%ef%bd%a2%e5%88%bb%e5%88%bb%ef%bd%a3-9%e6%9c%883%e6%97%a5%ef%bc%88%e6%9c%a8%ef%bc%89%ef%bc%8d12%e6%97%a5%ef%bc%88%e5%9c%9f%ef%bc%89/"
+                      >2020.9　久野隆史展「刻刻｣<span></span
+                    ></a>
+                  </li>
+                  <li
+                    id="menu-item-767"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-767"
+                  >
+                    <a
+                      href="https://kankankyo.com/information/2020-%e6%96%b0%e5%80%89%e7%ab%a0%e5%ad%90%e5%80%8b%e5%b1%95%e3%80%80%e3%80%8c%e5%a2%a8%e8%8a%b3%e5%a6%82%e8%8a%b1%e3%80%8d7%e6%9c%8823%e6%97%a5%ef%bc%88%e6%9c%a8%e3%83%bb%e6%b5%b7%e3%81%ae%e6%97%a5/"
+                      >2020.7　新倉章子展「墨芳如花」<span></span
+                    ></a>
+                  </li>
+                  <li
+                    id="menu-item-673"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-673"
+                  >
+                    <a
+                      href="7月のweb企画展示　菊地武彦-「絵画の居る場所」シ/index.html"
+                      >2020.7　菊地武彦 線の形象<span></span
+                    ></a>
+                    <ul class="sub-menu">
+                      <li
+                        id="menu-item-674"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-674"
+                      >
+                        <a href="https://kankankyo.com/kikuchitakehiko_gareki/"
+                          >菊地武彦　画歴<span></span
+                        ></a>
+                      </li>
+                      <li
+                        id="menu-item-679"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-679"
+                      >
+                        <a href="https://kankankyo.com/kikuchitakehiko_bunken/"
+                          >菊地武彦　文献<span></span
+                        ></a>
+                      </li>
+                      <li
+                        id="menu-item-675"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-675"
+                      >
+                        <a href="https://kankankyo.com/kikuchitakehiko_jisaku/"
+                          >菊地武彦　自作について<span></span
+                        ></a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li
+                id="menu-item-970"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-970"
+              >
+                <a href="https://kankankyo.com/shop/?orderby=date&#038;paged=1"
+                  >オンラインショップ<span></span
+                ></a>
+              </li>
+              <li
+                id="menu-item-720"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-720"
+              >
+                <a href="https://kankankyo.com/information/"
+                  >お知らせ<span></span
+                ></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="l-main">
+      <header id="js-page-header" class="p-page-header">
+        <div class="p-page-header__inner l-inner">
+          <h1 class="p-page-header__title">企画展示作品の紹介</h1>
+        </div>
+      </header>
+      <div class="p-breadcrumb c-breadcrumb">
+        <ul
+          class="p-breadcrumb__inner c-breadcrumb__inner l-inner"
+          itemscope
+          itemtype="http://schema.org/BreadcrumbList"
+        >
+          <li
+            class="p-breadcrumb__item c-breadcrumb__item p-breadcrumb__item--home c-breadcrumb__item--home"
+            itemprop="itemListElement"
+            itemscope
+            itemtype="http://schema.org/ListItem"
+          >
+            <a
+              href="https://kankankyo.com/"
+              itemscope
+              itemtype="http://schema.org/Thing"
+              itemprop="item"
+              ><span itemprop="name">HOME</span></a
+            >
+            <meta itemprop="position" content="1" />
+          </li>
+          <li class="p-breadcrumb__item c-breadcrumb__item">
+            <span itemprop="name">Exhibition</span>
+          </li>
+        </ul>
+      </div>
+      <div class="p-archive-works l-inner">
+        <div class="p-archive-works__desc">
+          閑々居でのこれまでの企画展示の作品を紹介します。<br />作品をクリックすると詳細ページに飛びます。
+        </div>
+        <ul class="p-works-gallery__filter">
+          <li class="p-works-gallery__filter-item is-active" data-cat-id="">
+            <span>ALL</span>
+          </li>
+          <li class="p-works-gallery__filter-item" data-cat-id="53">
+            <span>「EXHIBITION　ABE」阿部光成石彫展</span>
+          </li>
+          <li class="p-works-gallery__filter-item" data-cat-id="7">
+            <span>2020 菊地武彦 線の形象</span>
+          </li>
+          <li class="p-works-gallery__filter-item" data-cat-id="50">
+            <span>2021 菊地武彦 線の形象</span>
+          </li>
+          <li class="p-works-gallery__filter-item" data-cat-id="52">
+            <span>2021 長尾和典 個展</span>
+          </li>
+          <li class="p-works-gallery__filter-item" data-cat-id="44">
+            <span>久野隆史展 ｢刻刻｣</span>
+          </li>
+          <li class="p-works-gallery__filter-item" data-cat-id="41">
+            <span>新倉章子展「墨芳如花」</span>
+          </li>
+          <li class="p-works-gallery__filter-item" data-cat-id="61">
+            <span>新倉章子水墨画展</span>
+          </li>
+          <li class="p-works-gallery__filter-item" data-cat-id="54">
+            <span>樋口陽介の茶の湯釜</span>
+          </li>
+          <li class="p-works-gallery__filter-item" data-cat-id="47">
+            <span>神山藍輔「THE KNIFE　Vol.2」</span>
+          </li>
+          <li class="p-works-gallery__filter-item" data-cat-id="55">
+            <span>苧坂恒治 陶藝展</span>
+          </li>
+          <li class="p-works-gallery__filter-item" data-cat-id="48">
+            <span>苧坂恒治作陶展「ceramic WORKS」</span>
+          </li>
+          <li class="p-works-gallery__filter-item" data-cat-id="60">
+            <span>間島秀徳「天地無常」2024</span>
+          </li>
+          <li class="p-works-gallery__filter-item" data-cat-id="57">
+            <span>阿部光成：UNSEALED:</span>
+          </li>
+        </ul>
+        <div class="p-works-gallery">
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption"
+          >
+            <a class="p-hover-effect--type1" href="苧坂コウジ陶芸展/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2024/12/2塩釉片口-600x600.jpg"
+                  alt="苧坂恒治陶芸展"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">苧坂恒治陶芸展</h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="園家誠二「間-あわい」11月７日（木）－１１月１/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/themes/famous_tcd064/img/no-image-600x600.gif"
+                  alt="園家誠二「間/あわい」11月７日（木）－１１月１６日（土）"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                園家誠二「間/あわい」11月７日（木）－１１月１６日（土）
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type3 p-works-gallery__item--has-caption cat-61"
+          >
+            <a class="p-hover-effect--type1" href="新倉章子/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2024/09/image0-600x1200.jpeg"
+                  alt="新倉章子水墨画展「通りすぎる季節に」2024/9/26－10/5"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                新倉章子水墨画展「通りすぎる季節に」2024/9/26－10/5
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-60"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="kinesis-no-791-black-peack/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/themes/famous_tcd064/img/no-image-600x600.gif"
+                  alt="Kinesis no.791  Black peack"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                Kinesis no.791 Black peack
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="kinesis-no-787no-786/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/themes/famous_tcd064/img/no-image-600x600.gif"
+                  alt="Kinesis no.787,no.786　Doragon vein"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                Kinesis no.787,no.786　Doragon vein
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="kinesis-no-788-ocean-rising/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/themes/famous_tcd064/img/no-image-600x600.gif"
+                  alt="Kinesis no.788   Ocean rising"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                Kinesis no.788 Ocean rising
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="閑々居はちょびっとリニューアル/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/themes/famous_tcd064/img/no-image-600x600.gif"
+                  alt="閑々居はちょびっとリニューアル"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                閑々居はちょびっとリニューアル
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-57"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="阿部光成：unsealed/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2024/02/ＤＭ用理-1-600x600.jpg"
+                  alt="阿部光成：UNSEALED:"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">阿部光成：UNSEALED:</h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption"
+          >
+            <a class="p-hover-effect--type1" href="苧坂恒治陶藝展/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/themes/famous_tcd064/img/no-image-600x600.gif"
+                  alt="苧坂恒治陶藝展"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">苧坂恒治陶藝展</h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="園家誠二個展　10月5日（木）-10月15日（土）/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/themes/famous_tcd064/img/no-image-600x600.gif"
+                  alt="園家誠二個展　10月5日（木）-10月15日（土）"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                園家誠二個展　10月5日（木）-10月15日（土）
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type2 p-works-gallery__item--has-caption cat-55"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="苧坂恒治　-｢赤絵平皿｣/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/12/106107赤絵平皿各￥15000.jpg"
+                  alt="苧坂恒治　 ｢赤絵平皿｣"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">苧坂恒治　 ｢赤絵平皿｣</h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-55"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="苧坂恒治　-｢彩紋つる付水差｣/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/12/120彩紋つる付水差￥40000-600x600.jpg"
+                  alt="苧坂恒治　 ｢彩紋つる付水差｣"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                苧坂恒治　 ｢彩紋つる付水差｣
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type3 p-works-gallery__item--has-caption cat-55"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="苧坂恒治　-｢赤絵ピッチャー｣/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/12/117赤絵ピッチャー￥36000-600x1200.jpg"
+                  alt="苧坂恒治　 ｢赤絵ピッチャー｣"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                苧坂恒治　 ｢赤絵ピッチャー｣
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type2 p-works-gallery__item--has-caption cat-55"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="苧坂恒治　-｢赤彩紋深鉢｣/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/12/97赤彩紋深鉢￥20000.jpg"
+                  alt="苧坂恒治　 ｢赤彩紋深鉢｣"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                苧坂恒治　 ｢赤彩紋深鉢｣
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type3 p-works-gallery__item--has-caption cat-55"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="苧坂恒治　-｢黒流彩紋香炉｣/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/12/37黒流彩紋香炉￥42000-600x1053.jpg"
+                  alt="苧坂恒治　 ｢黒流彩紋香炉｣"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                苧坂恒治　 ｢黒流彩紋香炉｣
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type3 p-works-gallery__item--has-caption cat-55"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="苧坂恒治　-｢黒流彩紋花入｣/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/12/36黒流彩紋花入￥30000-600x1200.jpg"
+                  alt="苧坂恒治　 ｢黒流彩紋花入｣"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                苧坂恒治　 ｢黒流彩紋花入｣
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-55"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="苧坂恒治　-｢8彩紋大銅鑼鉢｣/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/12/8彩紋大銅鑼鉢￥85000-600x600.jpg"
+                  alt="苧坂恒治　 ｢彩紋大銅鑼鉢｣"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                苧坂恒治　 ｢彩紋大銅鑼鉢｣
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-55"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="苧坂恒治　-｢7彩紋角皿｣/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/12/7彩紋角皿￥70000-600x600.jpg"
+                  alt="苧坂恒治　 ｢彩紋角皿｣"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">苧坂恒治　 ｢彩紋角皿｣</h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type3 p-works-gallery__item--has-caption cat-54"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="樋口陽介　-｢霰地筒釜」/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/11/霰地筒釜825000円風炉550000円.jpg"
+                  alt="樋口陽介　 ｢霰地筒釜」 ｢風炉」"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                樋口陽介　 ｢霰地筒釜」 ｢風炉」
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type3 p-works-gallery__item--has-caption cat-54"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="樋口陽介　-｢霰地若松7c真形釜」/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/11/霰地若松7C真形釜825000円-600x1200.jpg"
+                  alt="樋口陽介　 ｢霰地若松7C真形釜」"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                樋口陽介　 ｢霰地若松7C真形釜」
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type2 p-works-gallery__item--has-caption cat-54"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="樋口陽介　-｢殷周技法オブジェ」/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/11/殷周技法オブジェ165000円.jpeg"
+                  alt="樋口陽介　 ｢殷周技法オブジェ」"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                樋口陽介　 ｢殷周技法オブジェ」
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type3 p-works-gallery__item--has-caption cat-54"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="樋口陽介　-｢薬鑵1」/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/11/薬鑵198000円-1-600x1200.jpg"
+                  alt="樋口陽介　 ｢薬鑵1」"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">樋口陽介　 ｢薬鑵1」</h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type3 p-works-gallery__item--has-caption cat-54"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="樋口陽介　-｢薬鑵2」/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/11/薬鑵198000円-2.jpg"
+                  alt="樋口陽介　 ｢薬鑵2」"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">樋口陽介　 ｢薬鑵2」</h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-54"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="樋口陽介　-｢浜松図真形釜」/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/11/浜松図真形釜770000円.jpg"
+                  alt="樋口陽介　 ｢浜松図真形釜」"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                樋口陽介　 ｢浜松図真形釜」
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-54"
+          >
+            <a class="p-hover-effect--type1" href="樋口陽介　-｢盃」/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/11/盃各8800円.jpg"
+                  alt="樋口陽介　 ｢盃」"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">樋口陽介　 ｢盃」</h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-54"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="樋口陽介　-｢スマートタンブラー」/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/11/スマートタンブラー各14300円.jpg"
+                  alt="樋口陽介　 ｢スマートタンブラー」"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                樋口陽介　 ｢スマートタンブラー」
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-53"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="阿部光成　-｢nest」/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/10/9830Nest浮金石23x23x34cm200000-600x600.jpg"
+                  alt="阿部光成　 ｢Nest」"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">阿部光成　 ｢Nest」</h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-53"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="阿部光成　-｢foundationstone」-2/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/10/9828FoundationStone御影石26x26x28cm230000-600x600.jpg"
+                  alt="阿部光成　 ｢FoundationStone」"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                阿部光成　 ｢FoundationStone」
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-53"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="阿部光成　-｢無為（トルソな気分）」/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/10/9827無為（トルソな気分）御影石33x19x19cm200000-600x600.jpg"
+                  alt="阿部光成　 ｢無為（トルソな気分）」"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                阿部光成　 ｢無為（トルソな気分）」
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-53"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="阿部光成　-｢まぼろしのカール」/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/10/9824まぼろしのカール御影石116x19x19cm100000-600x600.jpg"
+                  alt="阿部光成　 ｢まぼろしのカール」"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                阿部光成　 ｢まぼろしのカール」
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-53"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="阿部光成　-｢人は一艘の舟にのるような」/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/10/9822人は一艘の舟にのるような御影石24x12x20cm80000-600x600.jpg"
+                  alt="阿部光成　 ｢人は一艘の舟にのるような」"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                阿部光成　 ｢人は一艘の舟にのるような」
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-53"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="阿部光成　-｢foundationstone」/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/10/9821FoundationStone浮金石6x19x18cm50000-600x600.jpg"
+                  alt="阿部光成　 ｢FoundationStone」"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                阿部光成　 ｢FoundationStone」
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-53"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="阿部光成「tiestone」/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/10/9820TieStone浮金石6x17x15cm45000-600x600.jpg"
+                  alt="阿部光成　 ｢TieStone」"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                阿部光成　 ｢TieStone」
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-52"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="2021-長尾和典-個展-45-8/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/07/45-8100x100cm.jpg"
+                  alt="2021 長尾和典 個展 45-8"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                2021 長尾和典 個展 45-8
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-52"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="2021-長尾和典-個展-45-7/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/07/45-7100x100cm.jpg"
+                  alt="2021 長尾和典 個展 45-7"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                2021 長尾和典 個展 45-7
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-52"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="2021-長尾和典-個展-45-6/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/07/45-641.2x41.2cm.jpg"
+                  alt="2021 長尾和典 個展 45-6"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                2021 長尾和典 個展 45-6
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type2 p-works-gallery__item--has-caption cat-52"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="2021-長尾和典-個展-45-5/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/07/45-516x45.5cm-1.jpg"
+                  alt="2021 長尾和典 個展 45-5"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                2021 長尾和典 個展 45-5
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type2 p-works-gallery__item--has-caption cat-52"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="2021-長尾和典-個展-45-4/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/07/45-415x21cm-1.jpg"
+                  alt="2021 長尾和典 個展 45-4"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                2021 長尾和典 個展 45-4
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type2 p-works-gallery__item--has-caption cat-52"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="2021-長尾和典-個展-45-2/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/07/45-215.8x22.7cm-1.jpg"
+                  alt="2021 長尾和典 個展 45-2"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                2021 長尾和典 個展 45-2
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type2 p-works-gallery__item--has-caption cat-52"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="2021-長尾和典-個展-45-1/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/07/45-114x18cm-1.jpg"
+                  alt="2021 長尾和典 個展 45-1"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                2021 長尾和典 個展 45-1
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type3 p-works-gallery__item--has-caption cat-52"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="2021-長尾和典-個展-44-6/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/07/44-624.5x22.2cm.jpg"
+                  alt="2021 長尾和典 個展 44-6"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                2021 長尾和典 個展 44-6
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type3 p-works-gallery__item--has-caption cat-52"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="2021-長尾和典-個展-44-5/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/07/44-527.3x22cm.jpg"
+                  alt="2021 長尾和典 個展 44-5"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                2021 長尾和典 個展 44-5
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-52"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="2021-長尾和典-個展-44-4/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/07/44-420x20cm-1.jpg"
+                  alt="2021 長尾和典 個展 44-4"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                2021 長尾和典 個展 44-4
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-50"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="菊地武彦　線の形象-2020-35drawing/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/02/線の形象2020-35ドローイング）58×77-600x600.jpg"
+                  alt="菊地武彦　線の形象 2020-35(drawing)"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                菊地武彦　線の形象 2020-35(drawing)
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type3 p-works-gallery__item--has-caption cat-50"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="菊地武彦　線の形象-2020-53drawing/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/02/線の形象2020-53ドローイング）39×27-600x1200.jpg"
+                  alt="菊地武彦　線の形象 2020-53(drawing)"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                菊地武彦　線の形象 2020-53(drawing)
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type3 p-works-gallery__item--has-caption cat-50"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="菊地武彦　線の形象-2021-3drawing/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/02/線の形象2021-3（ドローイング）-2-600x1200.jpg"
+                  alt="菊地武彦　線の形象 2021-3(drawing)"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                菊地武彦　線の形象 2021-3(drawing)
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-50"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="菊地武彦　線の形象-2021-6drawing/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/02/2021-6195x158.5-600x600.jpg"
+                  alt="菊地武彦　線の形象 2021-6(drawing)"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                菊地武彦　線の形象 2021-6(drawing)
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type3 p-works-gallery__item--has-caption cat-50"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="菊地武彦　2021-8drawing/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/02/線の形象2021-8ドローイング）76×56-600x1200.jpg"
+                  alt="菊地武彦　線の形象 2021-8(drawing)"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                菊地武彦　線の形象 2021-8(drawing)
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type2 p-works-gallery__item--has-caption cat-50"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="菊地武彦　2021-9drawing/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/02/線の形象2021-9ドローイング）30.1×45.1-1200x600.jpg"
+                  alt="菊地武彦　線の形象 2021-9(drawing)"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                菊地武彦　線の形象 2021-9(drawing)
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type3 p-works-gallery__item--has-caption cat-50"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="菊地武彦　線の形象-2021-11drawing/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2021/02/2021-11195x147.5-600x945.jpg"
+                  alt="菊地武彦　線の形象 2021-11(drawing)"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                菊地武彦　線の形象 2021-11(drawing)
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-48"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="苧坂恒治　-｢黒流彩文蓋物｣/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/12/大no.8黒流彩文深鉢-600x600.jpg"
+                  alt="苧坂恒治　 ｢黒流彩文蓋物｣"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                苧坂恒治　 ｢黒流彩文蓋物｣
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-48"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="苧坂恒治　-｢彩文小壷｣/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/12/大ｎｏ-.7彩文小壷-600x600.jpg"
+                  alt="苧坂恒治　 ｢彩文小壷｣"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">苧坂恒治　 ｢彩文小壷｣</h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-48"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="苧坂恒治　-｢彩文土瓶｣/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/12/大no.6土瓶-600x600.jpg"
+                  alt="苧坂恒治　 ｢彩文土瓶｣"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">苧坂恒治　 ｢彩文土瓶｣</h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-48"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="苧坂恒治　-｢彩文片口｣/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/12/大no.2彩文片口.jpg"
+                  alt="苧坂恒治　 ｢彩文片口｣"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">苧坂恒治　 ｢彩文片口｣</h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-48"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="苧坂恒治　-｢赤彩文角鉢｣/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/12/大no.1赤彩文角鉢.jpg"
+                  alt="苧坂恒治　 ｢赤彩文角鉢｣"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                苧坂恒治　 ｢赤彩文角鉢｣
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type3 p-works-gallery__item--has-caption cat-47"
+          >
+            <a class="p-hover-effect--type1" href="神山藍輔　-｢東風｣/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/10/東風2.jpg"
+                  alt="神山藍輔　 ｢東風｣"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">神山藍輔　 ｢東風｣</h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type3 p-works-gallery__item--has-caption cat-47"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="神山藍輔　-｢驟雨（２）｣/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/10/驟雨22.jpg"
+                  alt="神山藍輔　 ｢驟雨（２）｣"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                神山藍輔　 ｢驟雨（２）｣
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type3 p-works-gallery__item--has-caption cat-47"
+          >
+            <a class="p-hover-effect--type1" href="神山藍輔　-｢霰｣/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/10/霰2.jpg"
+                  alt="神山藍輔　 ｢霰｣"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">神山藍輔　 ｢霰｣</h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type3 p-works-gallery__item--has-caption cat-47"
+          >
+            <a class="p-hover-effect--type1" href="神山藍輔　-｢靄｣/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/10/靄180ｘ27ｘ22-2のコピー.jpg"
+                  alt="神山藍輔　 ｢靄｣"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">神山藍輔　 ｢靄｣</h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type3 p-works-gallery__item--has-caption cat-47"
+          >
+            <a class="p-hover-effect--type1" href="神山藍輔　-｢垂氷｣/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/10/垂氷2.jpg"
+                  alt="神山藍輔　 ｢垂氷｣"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">神山藍輔　 ｢垂氷｣</h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type3 p-works-gallery__item--has-caption cat-47"
+          >
+            <a class="p-hover-effect--type1" href="神山藍輔　-｢凪｣/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/10/凪2-600x1200.jpg"
+                  alt="神山藍輔　 ｢凪｣"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">神山藍輔　 ｢凪｣</h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type3 p-works-gallery__item--has-caption cat-47"
+          >
+            <a class="p-hover-effect--type1" href="神山藍輔　-｢青嵐｣/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/10/青嵐￥55000のコピー.jpg"
+                  alt="神山藍輔　 ｢青嵐｣"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">神山藍輔　 ｢青嵐｣</h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type3 p-works-gallery__item--has-caption cat-47"
+          >
+            <a class="p-hover-effect--type1" href="神山藍輔　-｢驟雨｣/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/10/驟雨￥55000のコピー.jpg"
+                  alt="神山藍輔　 ｢驟雨｣"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">神山藍輔　 ｢驟雨｣</h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type3 p-works-gallery__item--has-caption cat-47"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="神山藍輔　-｢雨間（あめま）｣/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/10/knife5-1-600x1200.jpg"
+                  alt="神山藍輔　 ｢雨間（あめま）｣"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                神山藍輔　 ｢雨間（あめま）｣
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type3 p-works-gallery__item--has-caption cat-47"
+          >
+            <a class="p-hover-effect--type1" href="神山藍輔　-｢小雨｣/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/10/knife2-1-600x1200.jpg"
+                  alt="神山藍輔　 ｢零雨｣"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">神山藍輔　 ｢零雨｣</h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type3 p-works-gallery__item--has-caption cat-47"
+          >
+            <a class="p-hover-effect--type1" href="神山藍輔　-｢雹｣-2/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/10/knife4-1-600x1200.jpg"
+                  alt="神山藍輔　 ｢小雨｣"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">神山藍輔　 ｢小雨｣</h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type3 p-works-gallery__item--has-caption cat-47"
+          >
+            <a class="p-hover-effect--type1" href="神山藍輔　-｢雹｣/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/10/knife1-1-600x1200.jpg"
+                  alt="神山藍輔　 ｢雹｣"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">神山藍輔　 ｢雹｣</h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type2 p-works-gallery__item--has-caption cat-44"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="久野隆史-｢池とベンチ｣-12号ｍ-2/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/08/池とベンチ-1-1200x600.jpg"
+                  alt="久野隆史　 ｢池とベンチ｣ 12号Ｍ"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                久野隆史　 ｢池とベンチ｣ 12号Ｍ
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type3 p-works-gallery__item--has-caption cat-44"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="久野隆史　「積積」　8号変形/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/08/積積-1-1-600x1200.jpg"
+                  alt="久野隆史　「積積」　8号変形"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                久野隆史　「積積」　8号変形
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-44"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="久野隆史　「鹿ヶ谷南瓜」　6号ｆ/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/08/鹿ケ谷南瓜-1-600x600.jpg"
+                  alt="久野隆史　「鹿ヶ谷南瓜」　6号Ｆ"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                久野隆史　「鹿ヶ谷南瓜」　6号Ｆ
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type2 p-works-gallery__item--has-caption cat-44"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="久野隆史　「走走」　6号ｆ/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/08/走走-1-1-1200x600.jpg"
+                  alt="久野隆史　「走走」　6号Ｆ"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                久野隆史　「走走」　6号Ｆ
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type2 p-works-gallery__item--has-caption cat-44"
+          >
+            <a class="p-hover-effect--type1" href="小屋と果樹/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/08/小屋と果樹-1-1200x600.jpg"
+                  alt="久野隆史　「小屋と果樹」12号Ｍ"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                久野隆史　「小屋と果樹」12号Ｍ
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-44"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="久野隆史　「刻刻2　20号ｓ-2」/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/08/刻刻2　20号Ｓ-2-600x600.jpeg"
+                  alt="久野隆史　「刻刻2」　20号Ｓ (2)"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                久野隆史　「刻刻2」　20号Ｓ (2)
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-44"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="久野隆史　「刻刻1　20号ｓ-1」/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/08/刻刻1　20号Ｓ-1-600x600.jpeg"
+                  alt="久野隆史　「刻刻1」20号Ｓ (1)"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                久野隆史　「刻刻1」20号Ｓ (1)
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-44"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="久野隆史　「叢叢（100s」/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/08/叢叢（100S-600x600.jpg"
+                  alt="久野隆史　「叢叢」100号S"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                久野隆史　「叢叢」100号S
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-41"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="新倉章子　金魚（黒x赤）/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/07/金魚２-600x600.jpg"
+                  alt="新倉章子　金魚（黒×赤）"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                新倉章子　金魚（黒×赤）
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-41"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="新倉章子　金魚（黒x黒）/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/07/金魚１-600x600.jpg"
+                  alt="新倉章子　金魚（黒×黒）"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                新倉章子　金魚（黒×黒）
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type3 p-works-gallery__item--has-caption cat-41"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="新倉章子　母とふ花/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/07/母とふ花-1-600x1200.jpg"
+                  alt="新倉章子　母とふ花"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">新倉章子　母とふ花</h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type3 p-works-gallery__item--has-caption cat-41"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="新倉章子　スィートメモリー/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/07/スイートメモリー-600x1200.jpg"
+                  alt="新倉章子　スィートメモリー"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                新倉章子　スィートメモリー
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-41"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="新倉章子展「墨芳如花」9/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/07/20新倉室内-1-600x480.jpg"
+                  alt="新倉章子展「墨芳如花」展示風景の様子"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                新倉章子展「墨芳如花」展示風景の様子
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-41"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="新倉章子展「墨芳如花」8/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/07/松-486x600.jpg"
+                  alt="新倉章子　松聲"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">新倉章子　松聲</h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type3 p-works-gallery__item--has-caption cat-41"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="新倉章子展「墨芳如花」7/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/07/寿美礼.jpg"
+                  alt="新倉章子　すみれ会議"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">新倉章子　すみれ会議</h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type2 p-works-gallery__item--has-caption cat-41"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="新倉章子展「墨芳如花」6/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/07/ミョウガ-1-1024x408-1.jpg"
+                  alt="新倉章子　茗荷の子"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">新倉章子　茗荷の子</h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-41"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="新倉章子展「墨芳如花」5/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/07/笹-1-600x600.jpg"
+                  alt="新倉章子　笹"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">新倉章子　笹</h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type3 p-works-gallery__item--has-caption cat-41"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="新倉章子展「墨芳如花」4/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/07/好文木-600x1200.jpg"
+                  alt="新倉章子　好文木"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">新倉章子　好文木</h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type3 p-works-gallery__item--has-caption cat-41"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="新倉章子展「墨芳如花」3/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/07/ターコイズの花入-600x1200.jpeg"
+                  alt="新倉章子　ターコイーズの花入れ"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                新倉章子　ターコイーズの花入れ
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-41"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="新倉章子展「墨芳如花」2/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/07/屏風-600x600.jpg"
+                  alt="新倉章子　四季扇面屏風"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                新倉章子　四季扇面屏風
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-7"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="7月のweb企画展示　菊地武彦-「絵画の居る場所」シ/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/06/線の形象2020-13-2.jpg"
+                  alt="菊地武彦 「絵画の居る場所」シミュレーション"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                菊地武彦 「絵画の居る場所」シミュレーション
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-7"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="菊地武彦　線の形象2020-22/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/07/線の形象2020-22-57×40--600x600.jpg"
+                  alt="菊地武彦　線の形象2020-22"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                菊地武彦　線の形象2020-22
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-7"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="菊地武彦　線の形象2020-21ドローイング）/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/06/線の形象2020-21-1-600x600.jpg"
+                  alt="菊地武彦　線の形象2020-21(ドローイング）"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                菊地武彦　線の形象2020-21(ドローイング）
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-7"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="菊地武彦　線の形象2020-19/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/06/線の形象2020-19-1-600x600.jpg"
+                  alt="菊地武彦　線の形象2020-19"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                菊地武彦　線の形象2020-19
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-7"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="菊地武彦　線の形象2020-17/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/06/線の形象2020-17-1-600x600.jpg"
+                  alt="菊地武彦　線の形象2020-17"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                菊地武彦　線の形象2020-17
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-7"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="菊地武彦　線の形象2020-15/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/06/線の形象2020-15.jpg"
+                  alt="菊地武彦　線の形象2020-15"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                菊地武彦　線の形象2020-15
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-7"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="菊地武彦　線の形象2020-14ドローイング）/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/06/線の形象2020-14-1-600x600.jpg"
+                  alt="菊地武彦　線の形象2020-14(ドローイング）"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                菊地武彦　線の形象2020-14(ドローイング）
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-7"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="菊地武彦　線の形象2020-13/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/06/線の形象2020-13-1-600x600.jpg"
+                  alt="菊地武彦　線の形象2020-13"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                菊地武彦　線の形象2020-13
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-7"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="菊地武彦　線の形象2020-11/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/06/線の形象2020-11-1-1-600x600.jpg"
+                  alt="菊地武彦　線の形象2020-11"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                菊地武彦　線の形象2020-11
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-7"
+          >
+            <a class="p-hover-effect--type1" href="線の形象2020−9/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/06/線の形象2020-9-1-600x600.jpg"
+                  alt="菊地武彦　線の形象2020−9"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                菊地武彦　線の形象2020−9
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-7"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="菊地武彦　線の形象2020-8/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/06/線の形象2020-8-1-600x600.jpg"
+                  alt="菊地武彦　線の形象2020-8"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                菊地武彦　線の形象2020-8
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-7"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="菊地武彦　線の形象2020-6/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/07/線の形象2020-6太陽光下-600x513.jpg"
+                  alt="菊地武彦　線の形象2020-6"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                菊地武彦　線の形象2020-6
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-7"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="菊地武彦　線の形象2020−5ドローイング）/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/06/線の形象2020-5.jpg"
+                  alt="菊地武彦　線の形象2020−5(ドローイング）"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                菊地武彦　線の形象2020−5(ドローイング）
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-7"
+          >
+            <a
+              class="p-hover-effect--type1"
+              href="菊地武彦　線の形象2020-4/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/07/線の形象2020-4-32×41-1-600x600.jpg"
+                  alt="菊地武彦　線の形象2020-4"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                菊地武彦　線の形象2020-4
+              </h3></a
+            >
+          </div>
+          <div
+            class="p-works-gallery__item p-works-gallery__item--type1 p-works-gallery__item--has-caption cat-7"
+          >
+            <a class="p-hover-effect--type1" href="線の形象2020-1/index.html"
+              ><div
+                class="p-works-gallery__thumbnail p-hover-effect__image js-object-fit-cover"
+              >
+                <img
+                  src="https://kankankyo.com/wp/wp-content/uploads/2020/06/線の形象2020-1-1-600x600.jpg"
+                  alt="菊地武彦　線の形象2020-1"
+                />
+              </div>
+              <h3 class="p-works-gallery__caption">
+                菊地武彦　線の形象2020-1
+              </h3></a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="l-footer">
+      <div
+        class="p-footer-info has-bg-image has-bg-image-parallax"
+        data-src="https://kankankyo.com/wp/wp-content/uploads/2020/07/foot画像2.jpg"
+      >
+        <div class="p-footer-info__inner l-inner">
+          <div class="p-logo p-footer__logo p-footer__logo--retina">
+            <a href="https://kankankyo.com/"
+              ><img
+                src="https://kankankyo.com/wp/wp-content/uploads/2020/06/白ロゴ.png"
+                alt="Art Gallery　閑々居（Kankankyo）"
+                width="123"
+            /></a>
+          </div>
+          <div class="p-logo p-footer__logo--mobile p-footer__logo--retina">
+            <a href="https://kankankyo.com/"
+              ><img
+                src="https://kankankyo.com/wp/wp-content/uploads/2020/06/白ロゴ3.png"
+                alt="Art Gallery　閑々居（Kankankyo）"
+                width="95"
+            /></a>
+          </div>
+          <div class="p-footer-info__desc">
+            〒105-0004　東京都港区新橋1-8-4　丸忠ビル5Ｆ<br />TEL
+            03-5568-7737<br />営業時間　12:00〜19:00　日曜休廊<br />E-mail　hojo@kankankyo.com
+          </div>
+        </div>
+      </div>
+      <nav class="p-footer-nav__container">
+        <ul
+          id="menu-%e3%83%95%e3%83%83%e3%82%bf%e3%83%bc%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%bc"
+          class="p-footer-nav l-inner"
+        >
+          <li
+            id="menu-item-644"
+            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-644"
+          >
+            <a href="https://kankankyo.com/">HOME</a>
+          </li>
+          <li
+            id="menu-item-638"
+            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-638"
+          >
+            <a href="https://kankankyo.com/access/">閑々居について</a>
+          </li>
+          <li
+            id="menu-item-721"
+            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-721"
+          >
+            <a href="https://kankankyo.com/information/">お知らせ</a>
+          </li>
+          <li
+            id="menu-item-646"
+            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-646"
+          >
+            <a href="https://kankankyo.com/onetimelesson/"
+              >お茶のいただき方 Onetime lesson</a
+            >
+          </li>
+          <li
+            id="menu-item-647"
+            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-647"
+          >
+            <a rel="privacy-policy" href="https://kankankyo.com/privacy-policy/"
+              >プライバシーポリシー</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="p-copyright">
+        <div class="p-copyright__inner l-inner">
+          <p>
+            当HP掲載の全ての画像、文章の無断転載、無断転用は固く禁じます。<br />
+            Copyright &copy; Art gallery Kan-kan kyo <strong>閑々居</strong> All
+            rights reserved.
+          </p>
+        </div>
+      </div>
+      <div id="js-pagetop" class="p-pagetop"><a href="index.html#"></a></div>
+    </footer>
 
-    <!-- 画像リスト -->
-    <div class="image-gallery">
-      <!-- Cat -->
-      <div class="image-item cat">
-        <a href="#" class="image-link">
-          <img src="test_image/cat/cat01.jpg" alt="Cat 1" />
-        </a>
-      </div>
-      <div class="image-item cat">
-        <a href="#" class="image-link">
-          <img src="test_image/cat/cat02.jpg" alt="Cat 2" />
-        </a>
-      </div>
-      <div class="image-item cat">
-        <a href="#" class="image-link">
-          <img src="test_image/cat/cat03.jpg" alt="Cat 3" />
-        </a>
-      </div>
-      <div class="image-item cat">
-        <a href="#" class="image-link">
-          <img src="test_image/cat/cat04.jpg" alt="Cat 4" />
-        </a>
-      </div>
-      <div class="image-item cat">
-        <a href="#" class="image-link">
-          <img src="test_image/cat/cat05.jpg" alt="Cat 5" />
-        </a>
-      </div>
-      <div class="image-item cat">
-        <a href="#" class="image-link">
-          <img src="test_image/cat/cat06.jpg" alt="Cat 6" />
-        </a>
-      </div>
-      <div class="image-item cat">
-        <a href="#" class="image-link">
-          <img src="test_image/cat/cat07.jpg" alt="Cat 7" />
-        </a>
-      </div>
-      <div class="image-item cat">
-        <a href="#" class="image-link">
-          <img src="test_image/cat/cat08.jpg" alt="Cat 8" />
-        </a>
-      </div>
+    <!-- BEGIN: WP Social Bookmarking Light FOOTER -->
+    <script>
+      !(function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0],
+          p = /^http:/.test(d.location) ? "http" : "https";
+        if (!d.getElementById(id)) {
+          js = d.createElement(s);
+          js.id = id;
+          js.src = p + "://platform.twitter.com/widgets.js";
+          fjs.parentNode.insertBefore(js, fjs);
+        }
+      })(document, "script", "twitter-wjs");
+    </script>
+    <!-- END: WP Social Bookmarking Light FOOTER -->
+    <script type="text/javascript">
+      var c = document.body.className;
+      c = c.replace(/woocommerce-no-js/, "woocommerce-js");
+      document.body.className = c;
+    </script>
+    <script
+      type="text/javascript"
+      src="https://kankankyo.com/wp/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70"
+      id="jquery-blockui-js"
+    ></script>
+    <script type="text/javascript" id="wc-add-to-cart-js-extra">
+      /* <![CDATA[ */
+      var wc_add_to_cart_params = {
+        ajax_url: "\/wp\/wp-admin\/admin-ajax.php",
+        wc_ajax_url: "\/?wc-ajax=%%endpoint%%",
+        i18n_view_cart: "View cart",
+        cart_url: "https:\/\/kankankyo.com\/cart\/",
+        is_cart: "",
+        cart_redirect_after_add: "no",
+      };
+      /* ]]> */
+    </script>
+    <script
+      type="text/javascript"
+      src="https://kankankyo.com/wp/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=4.2.5"
+      id="wc-add-to-cart-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://kankankyo.com/wp/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4"
+      id="js-cookie-js"
+    ></script>
+    <script type="text/javascript" id="woocommerce-js-extra">
+      /* <![CDATA[ */
+      var woocommerce_params = {
+        ajax_url: "\/wp\/wp-admin\/admin-ajax.php",
+        wc_ajax_url: "\/?wc-ajax=%%endpoint%%",
+      };
+      /* ]]> */
+    </script>
+    <script
+      type="text/javascript"
+      src="https://kankankyo.com/wp/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=4.2.5"
+      id="woocommerce-js"
+    ></script>
+    <script type="text/javascript" id="wc-cart-fragments-js-extra">
+      /* <![CDATA[ */
+      var wc_cart_fragments_params = {
+        ajax_url: "\/wp\/wp-admin\/admin-ajax.php",
+        wc_ajax_url: "\/?wc-ajax=%%endpoint%%",
+        cart_hash_key: "wc_cart_hash_682fcdae42f512b394e133330105f690",
+        fragment_name: "wc_fragments_682fcdae42f512b394e133330105f690",
+        request_timeout: "5000",
+      };
+      /* ]]> */
+    </script>
+    <script
+      type="text/javascript"
+      src="https://kankankyo.com/wp/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=4.2.5"
+      id="wc-cart-fragments-js"
+    ></script>
+    <script type="text/javascript" id="mailchimp-woocommerce-js-extra">
+      /* <![CDATA[ */
+      var mailchimp_public_data = {
+        site_url: "https:\/\/kankankyo.com\/wp",
+        ajax_url: "https:\/\/kankankyo.com\/wp\/wp-admin\/admin-ajax.php",
+        language: "ja",
+      };
+      /* ]]> */
+    </script>
+    <script
+      type="text/javascript"
+      src="https://kankankyo.com/wp/wp-content/plugins/mailchimp-for-woocommerce/public/js/mailchimp-woocommerce-public.min.js?ver=2.4.1"
+      id="mailchimp-woocommerce-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://kankankyo.com/wp/wp-content/themes/famous_tcd064/js/functions.js?ver=1.2"
+      id="famous-script-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://kankankyo.com/wp/wp-content/themes/famous_tcd064/js/jquery.inview.min.js?ver=1.2"
+      id="famous-inview-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://kankankyo.com/wp/wp-content/themes/famous_tcd064/js/imagesloaded.pkgd.min.js?ver=1.2"
+      id="famous-imagesloaded-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://kankankyo.com/wp/wp-content/themes/famous_tcd064/js/freewall.js?ver=1.2"
+      id="famous-freewall-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://kankankyo.com/wp/wp-content/themes/famous_tcd064/js/works.js?ver=1.2"
+      id="famous-works-js"
+    ></script>
+    <script>
+      jQuery(function ($) {
+        var initialized = false;
+        var initialize = function () {
+          if (initialized) return;
+          initialized = true;
 
-      <!-- Dog -->
-      <div class="image-item dog">
-        <a href="#" class="image-link">
-          <img src="test_image/dog/dog01.jpg" alt="Dog 1" />
-        </a>
-      </div>
-      <div class="image-item dog">
-        <a href="#" class="image-link">
-          <img src="test_image/dog/dog02.jpg" alt="Dog 2" />
-        </a>
-      </div>
-      <div class="image-item dog">
-        <a href="#" class="image-link">
-          <img src="test_image/dog/dog03.jpg" alt="Dog 3" />
-        </a>
-      </div>
-      <div class="image-item dog">
-        <a href="#" class="image-link">
-          <img src="test_image/dog/dog04.jpg" alt="Dog 4" />
-        </a>
-      </div>
-      <div class="image-item dog">
-        <a href="#" class="image-link">
-          <img src="test_image/dog/dog05.jpg" alt="Dog 5" />
-        </a>
-      </div>
-      <div class="image-item dog">
-        <a href="#" class="image-link">
-          <img src="test_image/dog/dog06.jpg" alt="Dog 6" />
-        </a>
-      </div>
-      <div class="image-item dog">
-        <a href="#" class="image-link">
-          <img src="test_image/dog/dog07.jpg" alt="Dog 7" />
-        </a>
-      </div>
-      <div class="image-item dog">
-        <a href="#" class="image-link">
-          <img src="test_image/dog/dog08.jpg" alt="Dog 8" />
-        </a>
-      </div>
-      <div class="image-item dog">
-        <a href="#" class="image-link">
-          <img src="test_image/dog/dog09.jpg" alt="Dog 9" />
-        </a>
-      </div>
+          $(document).trigger("js-initialized");
+          $(window).trigger("resize").trigger("scroll");
+        };
 
-      <!-- Fish -->
-      <div class="image-item fish">
-        <a href="#" class="image-link">
-          <img src="test_image/fish/fish01.jpg" alt="Fish 1" />
-        </a>
-      </div>
-      <div class="image-item fish">
-        <a href="#" class="image-link">
-          <img src="test_image/fish/fish02.jpg" alt="Fish 2" />
-        </a>
-      </div>
-      <div class="image-item fish">
-        <a href="#" class="image-link">
-          <img src="test_image/fish/fish03.jpg" alt="Fish 3" />
-        </a>
-      </div>
-      <div class="image-item fish">
-        <a href="#" class="image-link">
-          <img src="test_image/fish/fish04.jpg" alt="Fish 4" />
-        </a>
-      </div>
-
-      <!-- Insect -->
-      <div class="image-item insect">
-        <a href="#" class="image-link">
-          <img src="test_image/insect/insect01.jpg" alt="Insect 1" />
-        </a>
-      </div>
-    </div>
-
-    <script src="scripts.js"></script>
+        initialize();
+        $(document).trigger("js-initialized-after");
+      });
+    </script>
   </body>
 </html>

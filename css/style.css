@@ -1,0 +1,80 @@
+.p-works-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+
+  padding: 20px;
+}
+
+.p-works-gallery__item {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 1;
+}
+
+.p-works-gallery__thumbnail {
+  width: 100%;
+  height: 100%;
+}
+
+.p-works-gallery__thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.p-hover-effect--type1:hover img {
+  transform: scale(1.1);
+}
+
+.p-works-gallery__caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+/* ヘッダーのスタイル */
+.l-header {
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.p-global-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.p-global-nav li a {
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* フッターのスタイル */
+.l-footer {
+  background: #333;
+  color: white;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+.p-footer-nav {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.p-footer-nav li a {
+  color: white;
+  text-decoration: none;
+}

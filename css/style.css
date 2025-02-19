@@ -1,3 +1,4 @@
+/* ギャラリーのスタイル */
 .p-works-gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -57,12 +58,7 @@
   text-align: center;
 }
 
-/* ヘッダーのスタイル */
-.l-header {
-  background: #fff;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-}
-
+/* グローバルナビゲーションのスタイル */
 .p-global-nav {
   display: flex;
   list-style: none;

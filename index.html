@@ -5,37 +5,28 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header id="js-header" class="l-header">
-      <div class="l-header__bar p-header__bar">
-        <div class="p-header__bar__inner l-inner">
-          <div class="p-logo p-header__logo p-header__logo--text">
-            <h1>Sample</h1>
-          </div>
-          <nav class="p-global-nav__container">
-            <ul id="js-global-nav" class="p-global-nav">
-              <li><a href="#">HOME</a></li>
-              <li><a href="#">Sample1</a></li>
-              <li><a href="#">Sample2</a></li>
-              <li><a href="#">Sample3</a></li>
-              <li><a href="#">Sample4</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
+    <header>
+      <h1>Sample</h1>
+      <nav>
+        <ul class="p-global-nav">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">Sample1</a></li>
+          <li><a href="#">Sample2</a></li>
+          <li><a href="#">Sample3</a></li>
+          <li><a href="#">Sample4</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <main class="l-main">
-      <div class="p-archive-works l-inner">
-        <div class="category-buttons">
-          <button class="category-button" data-category="ALL">ALL</button>
-          <button class="category-button" data-category="CAT">CAT</button>
-          <button class="category-button" data-category="DOG">DOG</button>
-          <button class="category-button" data-category="FISH">FISH</button>
-          <button class="category-button" data-category="INSECT">INSECT</button>
-        </div>
-        <div class="p-works-gallery" id="gallery">
-          <!-- 画像は JavaScript で動的に追加されます -->
-        </div>
+    <main>
+      <button data-category="ALL">ALL</button>
+      <button data-category="CAT">CAT</button>
+      <button data-category="DOG">DOG</button>
+      <button data-category="FISH">FISH</button>
+      <button data-category="INSECT">INSECT</button>
+
+      <div class="p-works-gallery" id="gallery">
+        <!-- 画像は JavaScript で動的に追加されます -->
       </div>
     </main>
 

@@ -396,18 +396,22 @@
       id="famous-works-js"
     ></script>
     <script>
-      jQuery(function ($) {
+      window.addEventListener("load", function (event) {
         var initialized = false;
         var initialize = function () {
           if (initialized) return;
           initialized = true;
 
-          $(document).trigger("js-initialized");
-          $(window).trigger("resize").trigger("scroll");
+          document.dispatchEvent(new Event("js-initialized"));
+          window.dispatchEvent(new Event("resize"));
+          window.dispatchEvent(new Event("scroll"));
         };
 
         initialize();
-        $(document).trigger("js-initialized-after");
+
+        setTimeout(() => {
+          document.dispatchEvent(new Event("js-initialized-after"));
+        }, 0);
       });
     </script>
   </body>
